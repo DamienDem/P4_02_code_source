@@ -341,20 +341,6 @@ a:hover {
     margin: 10px 10px 0 0;
     border: 0px;
 }
-/* style toggle visible uniquement pas liseuse d'écran*/
-.sr-only {
-    border: 0 !important;
-	clip: rect(1px, 1px, 1px, 1px) !important;
-	-webkit-clip-path: inset(50%) !important;
-			clip-path: inset(50%) !important;
-	height: 1px !important;
-	overflow: hidden !important;
-	padding: 0 !important;
-	position: absolute !important;
-	width: 1px !important;
-	white-space: nowrap !important;
-}
-
 .navbar-toggle:hover {
     background: transparent!important;
 }
@@ -373,6 +359,9 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+textarea {
+    resize:none;
 }
 
 @media (min-width: 768px) {
